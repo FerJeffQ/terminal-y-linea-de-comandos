@@ -381,3 +381,31 @@ Validamos que la variable fue creada y exportada:
 
 En la impresión de los resultados, encontraremos la variable creada `VERSION=value` y ahora puede ser usada en un script como `$VERSION`.
 
+### Editores de texto en la terminal
+
+Una de las utilidades más importantes de la terminal es el editor de texto.
+Hay diferentes opciones, pero **Vim** es uno de los mas sencillos y populares. También está **Emacs** y **Nano** 🤔.
+- `vi <archivo>` es la versión vieja. 👴🏽
+- `vim <archivo>`: Vi modern. Tenemos dos modos, el normal o de inserción, para instertar presionamos la `tecla i` y para salir presionamos `Esc`. Para salir del editor y guardar `:wq`. 🔒
+- Este editor tiene un resaltador de sintaxis 😄 depende del tipo de archivo.
+- Al igual que con `less` para buscar una palabra, podemos hacerlo en Vim con `/<palabra>`. Te lleva a la primera coincidencia.
+- Para eliminar una línea, desde el modo normal, nos ponemos al inicio de la línea y presionamos `dd`.
+
+### Personalizar la terminal de comandos
+
+Podemos personalizar la terminal para que quedé bonita, profesional y sea muy cómoda 💖.
+
+- Para esto, podemos usar un emulador llamado [Tilix](https://gnunn1.github.io/tilix-web/). En Tilix podemos tener varias terminales activas 🤯.
+- Podemos instalar **ZSH**, y luego `chsh -s <> $(which zsh)`, con este comando podemos cambiar de shell.
+- Ya en ZSH, podemos instalar un enhancer que incrementa las capacidades de la shell:
+  - [Oh My Zsh - a delightful & open source framework for Zsh](https://ohmyz.sh/)
+  - [Oh My Zsh - Github](https://github.com/ohmyzsh/ohmyzsh/wiki)
+
+- [Customize Windows Terminal with WSL2](https://dev.to/shettykaran21/customize-windows-terminal-with-wsl2-od9)
+- Para regresar a bash `exec bash` y para ir a ZSH `exec zsh`. 👀
+- Puedes mejorar aún más tu terminal con PowerLevel10k 🚀:
+  - [GitHub - romkatv/powerlevel10k: A Zsh theme](https://github.com/romkatv/powerlevel10k)
+- Es importante que instales las fonts necesarias para usar la funcionalidad máxima de esto 🔥.
+
+- [Personalizar la terminal por codevars](https://www.edevars.com/blog/personalizar-terminal)
+
